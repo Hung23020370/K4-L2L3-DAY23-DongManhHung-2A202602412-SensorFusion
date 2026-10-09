@@ -1,26 +1,26 @@
 {
   "detection": {
-    "tp": 42,
-    "fp": 2,
-    "fn": 0,
-    "precision": 0.9545454545454546,
-    "recall": 1.0
+    "tp": 519,
+    "fp": 16,
+    "fn": 222,
+    "precision": 0.9700934579439252,
+    "recall": 0.7004048582995951
   },
   "tracking": {
     "lidar": null,
     "fused": {
-      "rmse": 0.15438964346912948,
-      "matches": 34,
-      "sum_sq_err": 0.810429508357847,
+      "rmse": 0.13586678833539093,
+      "matches": 502,
+      "sum_sq_err": 9.266811654632107,
       "ghost_track_frames": 0,
-      "missed_gt_frames": 8,
-      "mean_confirmed_tracks": 1.619047619047619
+      "missed_gt_frames": 239,
+      "mean_confirmed_tracks": 2.522613065326633
     }
   },
   "fusion_mode": "fused",
   "frames": [
     0,
-    20
+    198
   ],
   "seed": 0,
   "segment": "training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord"
